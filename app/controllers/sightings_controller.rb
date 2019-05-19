@@ -1,5 +1,4 @@
 class SightingsController < ApplicationController
-
   def index
     @sightings = Sighting.all
     options = {}
